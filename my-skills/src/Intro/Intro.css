@@ -1,0 +1,31 @@
+.intro{
+    width: 60rem;
+    height: 40rem;
+    background: #8D9EFF;
+    box-shadow: inset 0 0 1rem 0.3rem rgba(141, 114, 225, 0.6);
+    border-radius: 1rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 4rem;
+    margin: 2rem;
+}
+
+.intro__heading{
+
+}
+
+.intro__headingContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    height: 50%;
+}
+
+.intro__text{
+    justify-content: center;
+    display: flex;
+    height: 50%;
+    align-items: center;
+}

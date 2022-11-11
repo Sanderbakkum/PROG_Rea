@@ -1,0 +1,115 @@
+.pokemoncard{
+    width: 40rem;
+    height: 50rem;
+    box-shadow: 0 0 2rem rgba(0,0,0,0.2);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+
+.pokemoncard__header{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pokemoncard__title{
+    font-size: 200%;
+    font-weight: 400;
+  
+}
+.pokemoncard__labelwrapper{
+    display: flex;
+    gap: 0.1rem;
+}
+.pokemoncard__type{
+    font-size: 50%;
+    padding: 0.3rem;
+    border-radius: 2rem;
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+    
+}
+.pokemoncard__type--Ghost{
+    background-color: #293462;
+}
+.pokemoncard__type--Poison{
+    background-color: #400D51;
+}
+.pokemoncard__type--Steel{
+    background-color: #B2B2B2;
+}
+.pokemoncard__type--Grass{
+    background-color: #9BA17B;
+}
+.pokemoncard__type--Water{
+    background-color: #5CB8E4;
+}
+.pokemoncard__type--Fighting{
+    background-color: #952727;
+}
+
+.pokemoncard__section{
+    height: 70%;
+}
+
+.pokemoncard__figure{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemoncard__img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.pokemoncard__h3Wrapper{
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+.pokemoncard__hp{
+    font-weight: 400;
+    font-size: 90%;
+}
+
+.pokemoncard__footer{
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+   
+
+}
+.pokemoncard__button{
+    border:none;
+    background: none;
+    font-size: 100%;
+    padding: 0.5rem 4rem;
+    border-radius: 0.5rem;
+    color: #eee;
+    flex-grow: 1;
+    font-family: 'Open sans', sans-serif;
+    letter-spacing: 1px;
+    
+}
+.pokemon__button--attack{
+    background-color: #cc5f5f;
+}
+
+.pokemon__button--catch{
+    background-color: #75ce88;
+}
+
+@media screen and (max-width: 62.5rem) {
+    .pokemoncard{
+        width: 100%;
+    }
+  }
